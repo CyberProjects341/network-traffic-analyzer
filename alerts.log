@@ -1,0 +1,87 @@
+[00:17:36] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 21
+[00:17:36] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 22
+[00:17:36] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 80
+[00:17:36] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 443
+[00:17:36] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 22
+[00:17:36] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 80
+[00:17:36] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 443
+[00:17:36] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 8080
+[00:17:37] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[00:17:37] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[00:17:37] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[00:17:37] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[00:17:37] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[00:17:37] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[00:17:37] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[00:17:37] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[00:17:37] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[00:17:37] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[00:17:37] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[00:17:37] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[00:17:37] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 203.0.113.45    | Unapproved external destination
+[00:17:37] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 198.51.100.88   | Unapproved external destination
+[00:17:37] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 203.0.113.99    | Unapproved external destination
+[00:17:37] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: a8f9c2e1b4d709123456789abcdef012345...
+[00:17:37] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: ff00112233445566778899aabbccddeeff0...
+[00:17:37] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: 99887766554433221100ffeeddccbbaa998...
+[00:17:37] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 3.91 bits: 9f8e7d6c5b4a3210fedcba
+[00:17:37] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 4.37 bits: k7m2p9x4q1z8w3v6n5b0r2
+[00:17:37] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 4.37 bits: a1b9c8d2e7f3g6h4j5k0m8
+[00:26:02] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 21
+[00:26:02] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 22
+[00:26:02] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 80
+[00:26:02] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 443
+[00:26:02] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 22
+[00:26:02] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 80
+[00:26:02] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 443
+[00:26:02] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 8080
+[00:26:02] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[00:26:02] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[00:26:02] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[00:26:02] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[00:26:02] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[00:26:02] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[00:26:02] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[00:26:02] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[00:26:02] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[00:26:02] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[00:26:02] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[00:26:02] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[00:26:02] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 203.0.113.45    | Unapproved external destination
+[00:26:02] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 198.51.100.88   | Unapproved external destination
+[00:26:02] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 203.0.113.99    | Unapproved external destination
+[00:26:02] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: a8f9c2e1b4d709123456789abcdef012345...
+[00:26:02] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: ff00112233445566778899aabbccddeeff0...
+[00:26:02] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: 99887766554433221100ffeeddccbbaa998...
+[00:26:02] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 3.91 bits: 9f8e7d6c5b4a3210fedcba
+[00:26:02] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 4.37 bits: k7m2p9x4q1z8w3v6n5b0r2
+[00:26:02] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 4.37 bits: a1b9c8d2e7f3g6h4j5k0m8
+[12:01:24] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 21
+[12:01:24] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 22
+[12:01:24] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 80
+[12:01:24] [ALERT] XMAS_SCAN                 | 10.0.0.66       -> 127.0.0.1       | Dst Port: 443
+[12:01:24] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 22
+[12:01:24] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 80
+[12:01:24] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 443
+[12:01:24] [ALERT] NULL_SCAN                 | 10.0.0.77       -> 127.0.0.1       | Dst Port: 8080
+[12:01:24] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[12:01:24] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[12:01:24] [ALERT] PORT_SCAN_DETECTED        | 10.0.0.88       -> 127.0.0.1       | 15 ports in 5s
+[12:01:24] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[12:01:24] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[12:01:24] [ALERT] SUSPICIOUS_ICMP           | 10.0.0.99       -> 127.0.0.1       | ICMP payload: 442B
+[12:01:24] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[12:01:24] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[12:01:24] [ALERT] OVERSIZED_PACKET          | 10.0.0.111      -> 127.0.0.1       | Length: 1642B
+[12:01:24] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[12:01:24] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[12:01:24] [ALERT] UNENCRYPTED_MQTT          | 192.168.50.12   -> 127.0.0.1       | Cleartext MQTT on port 1883
+[12:01:24] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 203.0.113.45    | Unapproved external destination
+[12:01:24] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 198.51.100.88   | Unapproved external destination
+[12:01:24] [ALERT] IOT_UNAUTHORIZED_OUTBOUND | 192.168.50.18   -> 203.0.113.99    | Unapproved external destination
+[12:01:24] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: a8f9c2e1b4d709123456789abcdef012345...
+[12:01:24] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: ff00112233445566778899aabbccddeeff0...
+[12:01:24] [ALERT] DNS_TUNNELING_LENGTH      | 192.168.50.20   -> 127.0.0.1       | Length 64 chars: 99887766554433221100ffeeddccbbaa998...
+[12:01:24] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 3.91 bits: 9f8e7d6c5b4a3210fedcba
+[12:01:24] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 4.37 bits: k7m2p9x4q1z8w3v6n5b0r2
+[12:01:25] [ALERT] DNS_TUNNELING_ENTROPY     | 192.168.50.21   -> 127.0.0.1       | Entropy 4.37 bits: a1b9c8d2e7f3g6h4j5k0m8
