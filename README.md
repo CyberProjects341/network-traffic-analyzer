@@ -16,12 +16,11 @@ Designed to address the expanding attack surface of modern **5G and IoT environm
 1. [System Architecture](#system-architecture)
 2. [Threat Detection & IPS Rules](#threat-detection--ips-rules)
 3. [Live Demonstration & Forensic Verification](#live-demonstration--forensic-verification)
-4. [Repository Structure](#repository-structure)
-5. [Installation & Setup](#installation--setup)
-6. [Usage Guide](#usage-guide)
-7. [Wireshark Display Filters for Verification](#wireshark-display-filters-for-verification)
-8. [Engineering Design & Threshold Tuning](#engineering-design--threshold-tuning)
-9. [Future Enhancements](#future-enhancements)
+4. [Installation & Setup](#installation--setup)
+5. [Usage Guide](#usage-guide)
+6. [Wireshark Display Filters for Verification](#wireshark-display-filters-for-verification)
+7. [Engineering Design & Threshold Tuning](#engineering-design--threshold-tuning)
+8. [Future Enhancements](#future-enhancements)
 
 ## System Architecture
 
